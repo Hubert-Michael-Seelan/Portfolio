@@ -11,7 +11,7 @@ body{
 nav{
   background-color: burlywood;
   height: 75px;
-  position: sticky !important;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
