@@ -36,11 +36,13 @@ section{
 }
 .leftSection{
   font-size: 2rem;
-  width: 50%;
+  width: 100%;
 }
-.rightSection{
+img, svg {
+  vertical-align: middle;
+  width: 100%;
+}
 
-}
 .card-img, .card-img-bottom, .card-img-top {
     width: 100%;
     height: 60%;
