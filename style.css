@@ -29,6 +29,7 @@ nav{
 section{
   width: 100%;
   min-height: 100vh;
+  max-height: 150vh;
 }
 #home{ 
   display: flex;
@@ -128,4 +129,19 @@ main hr{
 .icon{
   height: 50px;
   margin-bottom: 20px;
+}
+.heading-p{
+  display: flex;
+  justify-content: center;
+}
+.img-p{
+  height: 30rem;
+}
+.card-text{
+  display: flex;
+  justify-content: center;
+}
+.p-display{
+  display: flex;
+  justify-content: space-evenly;
 }
