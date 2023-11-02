@@ -135,13 +135,23 @@ main hr{
   justify-content: center;
 }
 .img-p{
-  height: 30rem;
+  height: 32rem;
 }
-.card-text{
+.card-p-text{
   display: flex;
   justify-content: center;
 }
 .p-display{
   display: flex;
   justify-content: space-evenly;
+}
+.f-copyrights{
+  display: flex;
+  justify-content: center;
+}
+.icon-h{
+  height: 50px;
+  width: 80px;
+  display: flex;
+  justify-content: end;
 }
