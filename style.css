@@ -1,102 +1,119 @@
-*{
+* {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
   z-index: 1000;
 }
-body{
+body {
   background-color: rgb(223, 239, 240) !important;
   color: white;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
-nav{
-  background-color: rgb(32, 207, 219);
+nav {
+  background-color: rgb(12, 114, 230);
   height: 75px;
   position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
-  box-shadow: 0px 5px 8px rgb(67, 228, 240);
+  box-shadow: 0px 5px 8px rgb(52, 96, 216);
   z-index: 3000;
 }
-.navbar-brand{
-      font-size: 1.8rem !important;
-      font-weight: bold;
-    }
-.nav-link:hover{
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: bolder;
+}
+.navbar-brand:hover{
+  font-size: 2.5rem !important;
+}
+
+.nav-link:hover {
   border-bottom: 2px solid black;
 }
-section{
+section {
   width: 100%;
   min-height: 100vh;
   max-height: 150vh;
 }
-#home{ 
+.soc-icon {
+  width: 100px;
+  display: flex;
+}
+.icon-l {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+#home {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
 }
-.leftSection{
+.leftSection {
   font-size: 2rem;
   width: 100%;
 }
-img, svg {
+
+img,
+svg {
   vertical-align: middle;
   width: 100%;
 }
 
-.card-img, .card-img-bottom, .card-img-top {
-    width: 100%;
-    height: 60%;
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 100%;
+  height: 60%;
 }
-.black{
+.black {
   color: rgb(150, 24, 235);
 }
-#element{
+#element {
   color: rgb(150, 24, 235);
 }
-main hr{
+main hr {
   border: 0;
   background-color: rgb(150, 24, 235);
   height: 1.2px;
 }
 
-.button{
+.button {
   width: 150px !important;
   margin: 0 8px;
 }
-#about{
+#about {
   display: flex;
   justify-content: space-around;
   height: 110vh;
 }
 
-.leftSection-1{
+.leftSection-1 {
   height: 100vh;
 }
-.rightSection-1{
+.rightSection-1 {
   height: 100vh;
   width: 100%;
 }
-.card{
+.card {
   background-color: rgb(183, 190, 196) !important;
 }
-.row{
+.row {
   display: flex;
   flex-wrap: nowrap !important;
 }
-.leftSection-3{
+.leftSection-3 {
   height: 100vh;
-  width: 40% !important;  
+  width: 40% !important;
 }
-.rightSection-3{
+.rightSection-3 {
   height: 100vh;
   width: 60% !important;
 }
-.mail-icon{
+.mail-icon {
   margin-right: 5px;
-  
 }
 .section__text__p1 {
   text-align: center;
@@ -126,32 +143,50 @@ main hr{
 .contact-info-container p {
   font-size: larger;
 }
-.icon{
+.icon {
   height: 50px;
   margin-bottom: 20px;
 }
-.heading-p{
+.heading-p {
   display: flex;
   justify-content: center;
 }
-.img-p{
-  height: 32rem;
+.img-p {
+  height: 10rem;
 }
-.card-p-text{
+.card-p-text {
   display: flex;
   justify-content: center;
 }
-.p-display{
+.p-display {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-.f-copyrights{
+.p-display a{
+  width:100px;
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-copyrights {
   display: flex;
   justify-content: center;
 }
-.icon-h{
+.icon-h {
   height: 50px;
   width: 80px;
   display: flex;
   justify-content: end;
+}
+.project-sec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.project-sec img{
+  width: 100%;
+  height: 300px;
 }
