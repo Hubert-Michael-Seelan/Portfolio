@@ -187,8 +187,10 @@ main hr {
 .project-sec{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-right: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 10px;
+  background-color: rgb(187, 159, 159);
 }
 .project-sec img{
   width: 100%;
