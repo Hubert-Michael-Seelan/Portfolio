@@ -292,6 +292,9 @@ main hr {
   .navbar-brand:hover {
     font-size: 30px !important;
   }
+  #home{
+    height: 70vh;
+  }
   .leftSection {
     font-size: 20px;
     width: 100%;
