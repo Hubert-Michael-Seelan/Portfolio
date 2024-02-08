@@ -16,7 +16,7 @@ nav {
   left: 0;
   width: 100%;
   box-shadow: 0px 5px 8px rgb(52, 96, 216);
-  z-index: 3000;
+  z-index: 1;
 }
 .navbar-brand {
   font-size: 2rem !important;
@@ -32,11 +32,6 @@ nav {
 }
 .nav-link{
   font-weight: 800 !important;
-}
-section {
-  width: 100%;
-  min-height: 100vh;
-  max-height: 150vh;
 }
 .soc-icon {
   width: 100px;
@@ -168,7 +163,7 @@ main hr {
 }
 .p-display a{
   width:100px;
-  height:60px;
+  /* height:60px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,7 +184,6 @@ main hr {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-right: 10px;
-  background-color: rgb(187, 159, 159);
 }
 .project-sec img{
   width: 100%;
