@@ -184,7 +184,6 @@ main hr {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-right: 10px;
   gap: 10px;
 }
 .project-sec img {
