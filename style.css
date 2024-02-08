@@ -8,6 +8,9 @@ body {
   color: white;
   font-family: "Poppins", sans-serif !important;
 }
+#home {
+  height: 100vh;
+}
 nav {
   background-color: rgb(12, 114, 230);
   height: 75px;
@@ -22,7 +25,7 @@ nav {
   font-size: 2rem !important;
   font-weight: bolder;
 }
-.navbar-brand:hover{
+.navbar-brand:hover {
   font-size: 2.5rem !important;
 }
 
@@ -30,7 +33,7 @@ nav {
   border-bottom: 2px solid black;
   font-weight: bolder;
 }
-.nav-link{
+.nav-link {
   font-weight: 800 !important;
 }
 .soc-icon {
@@ -77,7 +80,6 @@ main hr {
   background-color: rgb(150, 24, 235);
   height: 1.2px;
 }
-
 .button {
   width: 150px !important;
   margin: 0 8px;
@@ -161,9 +163,8 @@ main hr {
   justify-content: space-between;
   align-items: flex-end;
 }
-.p-display a{
-  width:100px;
-  /* height:60px; */
+.p-display a {
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -178,20 +179,92 @@ main hr {
   display: flex;
   justify-content: end;
 }
-.project-sec{
+.project-sec {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-right: 10px;
 }
-.project-sec img{
+.project-sec img {
   width: 100%;
 }
-.card-img-top{
-  width: 100%; 
-  height: 15rem!important;
+.card-img-top {
+  width: 100%;
+  height: 15rem !important;
 }
-.card-title{
+.card-title {
   font-weight: 800 !important;
+}
+@media (max-width: 500px) {
+  nav {
+    background-color: rgb(12, 114, 230);
+    height: 65px;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 5px 8px rgb(52, 96, 216);
+    z-index: 1;
+  }
+  .navbar-brand {
+    font-size: 20px !important;
+    font-weight: bolder;
+  }
+  .navbar-brand:hover {
+    font-size: 30px !important;
+  }
+  .leftSection {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .icon-h {
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: end;
+  }
+  .icon-l {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+  }
+  .navbar-nav {
+    align-items: end;
+  }
+  .card {
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+  }
+  .card h5 {
+    font-size: 15px;
+  }
+  .rightSection-1 {
+    width: 10px;
+    margin: 0;
+  }
+  .leftSection-1 {
+    width: 300px;
+    height: 100px;
+    margin: 0;
+  }
+  .contact-info-upper-container {
+    font-size: 10px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  .project-sec {
+    gap: 10px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .icon {
+    height: 25px;
+    margin-bottom: 20px;
+  }
 }
