@@ -209,10 +209,27 @@ main hr {
   #home{
     height: 60vh;
   }
+  #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    gap:550px;    
+  }
   .leftSection {
     font-size: 20px;
     width: 100%;
     margin-top: 70px;
+  }
+  .card-l{
+    width: 500px !important;
+    height: 500px !important;
+    background-color: rgb(183, 190, 196) !important;
+    border-radius: 5px;
+  }
+  .card-r{
+    width: 500px !important;
   }
   .icon-h {
     height: 30px;
@@ -321,6 +338,7 @@ main hr {
     width: 500px !important;
     height: 500px !important;
     background-color: rgb(183, 190, 196) !important;
+    border-radius: 5px;
   }
   .card-r{
     width: 500px !important;
