@@ -8,9 +8,6 @@ body {
   color: white;
   font-family: "Poppins", sans-serif !important;
 }
-#home {
-  height: 100vh;
-}
 nav {
   background-color: rgb(12, 114, 230);
   height: 75px;
@@ -51,6 +48,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin-top: 10px;
+  height: 100vh;
 }
 .leftSection {
   font-size: 2rem;
@@ -90,13 +88,6 @@ main hr {
   height: 110vh;
 }
 
-.leftSection-1 {
-  height: 100vh;
-}
-.rightSection-1 {
-  height: 100vh;
-  width: 100%;
-}
 .card {
   background-color: rgb(183, 190, 196) !important;
 }
@@ -196,6 +187,7 @@ main hr {
 .card-title {
   font-weight: 800 !important;
 }
+
 @media (max-width: 500px) {
   nav {
     background-color: rgb(12, 114, 230);
@@ -247,11 +239,6 @@ main hr {
   }
   .rightSection-1 {
     width: 10px;
-    margin: 0;
-  }
-  .leftSection-1 {
-    width: 300px;
-    height: 100px;
     margin: 0;
   }
   .contact-info-upper-container {
@@ -327,8 +314,16 @@ main hr {
     font-size: 15px;
   }
   .rightSection-1 {
-    width: 10px;
+    width: 500px;
     margin: 0;
+  }
+  .card-l{
+    width: 500px !important;
+    height: 500px !important;
+    background-color: rgb(183, 190, 196) !important;
+  }
+  .card-r{
+    width: 500px !important;
   }
   .leftSection-1 {
     width: 300px;
@@ -356,5 +351,13 @@ main hr {
   }
   #skill li{
     font-size: 12px;
+  }
+  #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    gap:550px;    
   }
 }
