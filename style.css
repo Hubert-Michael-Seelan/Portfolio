@@ -335,16 +335,19 @@ main hr {
     margin: 0;
   }
   .card-l{
-    width: 500px !important;
-    height: 500px !important;
+    width: 400px !important;
+    height: 300px !important;
     background-color: rgb(183, 190, 196) !important;
     border-radius: 5px;
+    margin: 0;
   }
   .card-r{
-    width: 500px !important;
+    width: 400px !important;
+    margin: 0;
+    height: 700px !important;
   }
   .leftSection-1 {
-    width: 300px;
+    width: 400px;
     height: 100px;
     margin: 0;
   }
@@ -376,6 +379,6 @@ main hr {
     justify-content: flex-start;
     width: auto;
     height: auto;
-    gap:550px;    
+    gap:480px;    
   }
 }
