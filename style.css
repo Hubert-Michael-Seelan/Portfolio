@@ -25,7 +25,6 @@ nav {
 .navbar-brand:hover {
   font-size: 2.5rem !important;
 }
-
 .nav-link:hover {
   border-bottom: 2px solid black;
   font-weight: bolder;
@@ -54,13 +53,11 @@ nav {
   font-size: 2rem;
   width: 100%;
 }
-
 img,
 svg {
   vertical-align: middle;
   width: 100%;
 }
-
 .card-img,
 .card-img-bottom,
 .card-img-top {
@@ -85,9 +82,13 @@ main hr {
 #about {
   display: flex;
   justify-content: space-around;
-  height: 110vh;
 }
-
+.card-l{
+  height: 50rem !important;
+}
+.card-r{
+  height: 50rem !important;
+}
 .card {
   background-color: rgb(183, 190, 196) !important;
 }
@@ -437,15 +438,15 @@ main hr {
   }
   .card-l{
     width: 400px !important;
-    height: 300px !important;
+    height: 45rem !important; 
     background-color: rgb(183, 190, 196) !important;
     border-radius: 5px;
-    margin: 0;
+    margin-bottom: 10rem;
   }
   .card-r{
     width: 400px !important;
     margin: 0;
-    height: 700px !important;
+    height: 900px !important;
   }
   .leftSection-1 {
     width: 400px;
@@ -480,6 +481,8 @@ main hr {
     justify-content: flex-start;
     width: auto;
     height: auto;
-    gap:480px;    
+    gap:700px;    
   }
+}
+@media(max-width: 1080px){
 }
